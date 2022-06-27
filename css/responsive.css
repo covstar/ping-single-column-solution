@@ -1,0 +1,49 @@
+@media (max-width: 805px){
+/* main section */
+    main {
+        padding: 6.9rem 2rem 2rem;
+    }
+
+    .logo img {
+        width: 4.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        padding: 2.9rem 0 1.5rem;
+    }
+
+    span {
+        font-weight: 300;
+        color: hsl(0, 0%, 59%);
+    }
+
+    .paragraph {
+        /* font-size: .8rem; */
+        padding-bottom: 2.5rem;
+    }
+    form{
+        display: block;
+    }
+
+    form input {
+        width: 19rem;
+        
+    }
+
+    button {
+        margin-top: 1rem;
+        width: 21rem;
+    }
+
+    #error_message {
+        /* display: none; */
+        color: hsl(354, 100%, 66%);
+        grid-area: error;
+        font-size: .9rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+  
+}
